@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styling</title>
+	<style>
+		body {
+			height: 100%;
+			background: linear-gradient(#4B0082, #000000, #4B0082);
+			background-repeat: no-repeat;
+			color: white;
+		}
+		
+		h1 {
+			color: yellow;
+			font-family: Edwardian Script ITC;
+			font-size: 60px;
+			margin: 1dsd0px;
+			text-align: center;
+		}
+		.center {
+		text-align: center;
+		margin: auto;
+		width: 60%;
+		padding: 10px;
+		}
+		div.gallery {
+		padding: 10px;
+			margin: 5px;
+			border: 2px solid #ccc;
+			float: left;
+			width: 180px;
+		}
+		div.gallery:hover {
+			border: 1px solid #777;
+		}
+		div.gallery img {
+			width: 100%;
+			height: 150px;
+		}
+		div.desc {
+			margin: 5px;
+			padding: 10px;
+			text-align: center;
+		}
+		h2 {
+			color: #7FFF00;
+			font-size: 30px;
+			margin: 1dsd0px;
+			text-decoration: underline;
+			text-align: center;
+		}
+		.id {
+			font-size: 150%;
+			margin: 10px;
+			text-align: right;
+		}
+		h3 {
+			padding: 15px;
+			margin: 5px;
+			color: #FF8C00;
+		}
+		.smth {
+			font-size: 150%;
+		}
+		.smth1 {
+			font-size: 140%;
+		}
+		table {
+			position: absolute;
+			right: 70px;
+			top: 35px;
+		}
+		ul {
+			list-style-type: none;
+			padding-top: 5px;
+			border: 2px solid black;
+			border-radius: 7.5px;
+			width: 900px;
+			margin: 35px;
+			height: 25px;
+			padding-right: 10px;
+		}
+		.solution {
+			display: inline;
+			padding: 5px;
+			margin: 20px;
+			font-size: 180%;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+				{box-sizing: border-box}
+
+		.container {
+		  margin: 20px;
+		  padding: 10px;
+		}
+
+		
+		input[type = text], input[type = password] {
+		  width: 100%;
+		  padding: 15px;
+		  margin: 5px 0 22px 0;
+		  display: inline-block;
+		  border: none;
+		  background: #f1f1f1;
+		}
+
+		input[type = text]:focus, input[type = password]:focus {
+		  background-color: #ddd;
+		  outline: none;
+		}
+
+		
+		hr {
+		  border: 1px solid #f1f1f1;
+		  margin-bottom: 25px;
+		}
+		
+		.registerbtn {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 16px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  opacity: 0.9;
+		}
+
+		.registerbtn:hover {
+		  opacity:1;
+		}
+
+		
+		a {
+		  color: #FFD700 ;
+		}
+
+		
+		.signin {
+		  background-color: #000000;
+		  text-align: center;
+		
+		/*.unique {
+			font-size: 150%;
+			margin: 20px;
+			padding: 5px;
+		}
+		*/
+		
+		.c1 {
+			text-align: center;
+		}
+		.c2 {
+			border: solid black 2px;
+			border-radius: 5px;
+			width: 300px;
+			margin: 10px;
+			padding: 5px;
+			position: absolute;
+			right: 10px;
+			top: 185px;
+		}
+
+		
+		
+		/*.c3 {
+			border: 2px solid black;
+			border-radius: 5px;
+			width: 300px;
+			margin: 10px;
+			padding: 5px;
+			position: absolute;
+			right: 10px;
+			top: 375px;
+		}
+		/*.c4 { 
+			border: solid black 2px;
+			border-radius: 5px;
+			width: 300px;
+			margin: 10px;
+			padding: 5px;
+			position: absolute;
+			right: 10px;
+			top: 625px;
+		}*/
+		
+	</style>
+</head>
+<body>
+	<h1 class = "center"> Build your own home </h1>
+	
+</form>
+	<ul class = "center">
+		<li class="solution"><a href="Architecture.html">Home</a></li>
+		<li class="solution"><a href="BuildYourProject.html">Build Your Project</a></li>
+		<li class="solution"><a href="#">My Projects</a></li>
+		<li class="solution"><a href="Register.html">Contacts</a></li>
+	</ul>
+
+	</div>
+
+	<form action="action_page.php">
+		<div class="container">
+			<h1>Register</h1>
+				<h2>Please fill in this form to create an account.</h2>
+    <hr>
+
+		<label for="email"><b>Email  </b> <input type="text" placeholder="Enter Email" name="email" required></label>
+			
+
+		<label for="psw"><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+
+		<label for="username"><b>Username</b></label>
+			<input type="text" placeholder="Enter your Username" name="text" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn"> <a href="#">Register</a>.</button>
+	
+  </div>
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+	
+</body>
+</html>
